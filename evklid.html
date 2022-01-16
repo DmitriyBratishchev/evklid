@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="/style/normalize.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link type="text/css" rel="stylesheet" href="./style/style.css" />
+  <title>Евклид</title>
+</head>
+
+<body>
+  <header class="header">
+    <!-- <div class="container"> -->
+    <div class="container header__container">
+      <button class="button burger" type="button">
+        <div class="burger__line"></div>
+        <div class="burger__line"></div>
+        <div class="burger__line"></div>
+      </button>
+      <a href="#">
+        <img src="./image/Logo.svg" alt="Логотип" class="header__logo">
+      </a>
+      <ul class="horizontal-menu">
+        <li class="horizontal-menu__item">
+          <a href="#" class="horizontal-menu__link">
+            О нас
+          </a>
+        </li>
+        <li class="horizontal-menu__item">
+          <a href="#" class="horizontal-menu__link">
+            Проекты
+          </a>
+        </li>
+        <li class="horizontal-menu__item">
+          <a href="#" class="horizontal-menu__link">
+            Этапы
+          </a>
+        </li>
+        <li class="horizontal-menu__item">
+          <a href="#" class="horizontal-menu__link">
+            Отзывы
+          </a>
+        </li>
+        <li class="horizontal-menu__item">
+          <a href="#" class="horizontal-menu__link">
+            Контакты
+          </a>
+        </li>
+      </ul>
+      <button class="search">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect fill="#333333" width="7.56126" height="1.89031"
+            transform="matrix(0.713342 0.700816 -0.713342 0.700816 18.6062 17.3762)" />
+          <path
+            d="M20.9303 10.7726C20.9303 16.1533 16.4855 20.5452 10.9652 20.5452C5.44478 20.5452 1 16.1533 1 10.7726C1 5.39198 5.44478 1 10.9652 1C16.4855 1 20.9303 5.39198 20.9303 10.7726Z"
+            stroke="#333333" stroke-width="2" />
+        </svg>
+      </button>
+    </div>
+    </div>
+    <!-- </div> -->
+  </header>
+  <main class="main">
+    <section class="presentation">
+      <div class="container presentation__container">
+        <div class="swiper-container">
+          <div class="presentation-content">
+            <h2 class="presentation-content__heading">Проектные решения любой сложности</h2>
+            <p class="presentation-content__text">Есть над чем задуматься: базовые сценарии поведения пользователей и по
+              сей день остаются уделом проектантов</p>
+            <button class="button presentation__button button-orange">Заказать расчёт</button>
+          </div>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image: url(image/balconies-1.png);">
+            </div>
+            <div class="swiper-slide" style="background-image: url(image/glass-building-2.png);"></div>
+            <div class="swiper-slide" style="background-image: url(image/architecture-building-3.png);"></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="container about__container">
+        <h2 class="about__heading">О нас</h2>
+        <p class="about__text">
+          Также как перспективное планирование создаёт необходимость включения в производственный план целого ряда
+          внеочередных мероприятий с учётом комплекса экспериментов, поражающих по своей масштабности и грандиозности. А
+          также диаграммы связей могут быть описаны максимально подробно. Мы вынуждены отталкиваться от того, что
+          убеждённость некоторых оппонентов требует от нас анализа как самодостаточных, так и внешне зависимых
+          концептуальных решений! Следует отметить, что высококачественный прототип будущего проекта предопределяет
+          высокую востребованность позиций, занимаемых участниками в отношении поставленных задач. Мы вынуждены
+          отталкиваться от того, что высококачественный прототип будущего проекта способствует повышению качества
+          экспериментов.
+        </p>
+        <div class="about-content">
+          <div class="about-content__left" style="background-image: url('image/rectangle-2.png');">
+            <img src="image/rectangle-2-570.png" alt="" class="about-content__left__image mobile">
+            <div class="about-left__inner">
+              <p class="about-left__text">
+                Принимая во внимание показатели успешности, перспективное планирование способствует подготовке и
+                реализации новых принципов.
+              </p>
+              <button class="button button-secondary">Подробнее</button>
+            </div>
+          </div>
+          <!-- только для устройств >570px -->
+          <p class="about-left__text mobile">
+            Принимая во внимание показатели успешности, перспективное планирование способствует подготовке и
+            реализации новых принципов.
+          </p>
+          <button class="button button-secondary mobile">Подробнее</button>
+
+          <div class="about-content__right">
+            <div class="about-right__item">
+              <img src="image/about-icon-1.svg" class="about-content__right__item__icon" alt="">
+              <div class="about-content__right__item__info">
+                <h3 class="about-content__right__item__info__title">Консультация с широким активом</h3>
+                <p class="about__text">А также свежий взгляд на привычные вещи - безусловно
+                  открывает новые
+                  горизонты для как самодостаточных, так и внешне зависимых концептуальных решений.</p>
+              </div>
+            </div>
+            <div class="about-right__item">
+              <img src="image/about-icon-2.svg" class="about-content__right__item__icon" alt="">
+              <div class="about-content__right__item__info">
+                <h3 class="about-content__right__item__info__title">В своём стремлении повысить</h3>
+                <p class="about__text">Качество жизни, они забывают, что сплочённость команды
+                  профессионалов
+                  представляет собой интересный эксперимент проверки прогресса профессионального сообщества.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
